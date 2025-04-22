@@ -33,13 +33,13 @@ Your credentials are used solely for authentication with the CoronaNG system.
 Simply open your terminal and run the following command:
 
 ```bash
-curl -s https://raw.githubusercontent.com/username/repository/branch/script.py | python3 -
+curl -sS https://raw.githubusercontent.com/ValentinKolb/asqbot/refs/heads/main/script.py | python3 -
 ```
 
 If you encounter SSL verification errors, you can use the following alternative:
 
 ```bash
-curl -s https://raw.githubusercontent.com/username/repository/branch/script.py | python3 - --no-ssl-verify
+curl -sS https://raw.githubusercontent.com/ValentinKolb/asqbot/refs/heads/main/script.py | python3 - --no-ssl-verify
 ```
 
 The script will prompt you for your login credentials and the course IDs you wish to register for.
