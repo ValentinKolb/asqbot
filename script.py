@@ -104,7 +104,6 @@ def login(username, password, disable_ssl_verification=False):
                     print("Login successful!")
                 else:
                     print("Login failed. Please check your credentials.")
-                    print("Response content (first 500 chars):", html_content[:500])
                     return None
             except Exception as e:
                 print(f"Error decoding response: {e}")
